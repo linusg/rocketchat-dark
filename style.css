@@ -1,0 +1,91 @@
+:root {
+    --popover-background: var(--color-darkest);
+    --popover-item-color: var(--color-gray-medium);
+    --create-channel-title-color: var(--color-gray-medium);
+    --input-icon-color: var(--color-gray-medium);
+    --input-border-color: var(--color-dark-medium);
+    --tags-background: var(--color-dark);
+    --tags-text-color: var(--color-gray-medium);
+    --tags-border-color: var(--color-dark-medium);
+    --button-disabled-background: var(--color-dark);
+    --button-disabled-text-color: var(--color-gray);
+    --button-secondary-background: var(--color-dark-medium);
+    --popup-list-background: var(--color-dark);
+    --popup-list-selected-background: var(--color-dark);
+    --popup-list-background-hover: var(--color-darkest);
+    --popup-list-name-color: var(--color-gray-medium);
+    --header-background-color: var(--color-darkest);
+    --header-title-username-color-darker: var(--color-white)
+}
+
+.rc-header__wrap {
+    color: var(--header-title-status-color);
+    box-shadow: 0 1px 2px 0 rgb(0, 99, 255);
+}
+
+.rc-old .messages-container-wrapper {
+    background: var(--color-darkest);
+}
+
+.rc-old .messages-container .footer {
+    background: var(--color-darkest);
+}
+
+.rc-old .code-colors {
+    color: var(--color-gray-medium);
+    background: var(--color-darkest);
+    border-color: var(--color-dark);
+}
+
+.rc-message-box__container {
+    border-color: var(--color-dark-medium);
+}
+
+.rc-button:not(.rc-button--primary) {
+    color: var(--color-gray-medium);
+    border-color: var(--color-dark-medium);
+}
+
+.rc-popover__content {
+    box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.29), 0 0 12px 0 rgba(47, 52, 61, .08);
+}
+
+.rc-input__element,
+.rc-switch__text,
+.rc-switch-double,
+.rc-member-list__counter,
+.attachments__name {
+    color: var(--color-gray-medium);
+}
+
+.rc-member-list__user.active,
+.rc-member-list__user:hover,
+.attachments__item.active,
+.attachments__item:hover,
+.emoji-picker .emojis .emoji-list li:hover {
+    background: var(--color-dark);
+}
+
+.attachments-menu {
+    color: var(--color-gray-medium);
+}
+
+.flex-tab .message.new-day::before {
+    background-color: var(--color-dark);
+    color: var(--color-gray-medium);
+}
+
+.contextual-bar {
+    background: var(--color-darkest);
+}
+
+.content-background-color {
+    background: var(--color-darkest);
+}
+
+.color-primary-font-color,
+input,
+select,
+textarea {
+    color: var(--color-gray-medium);
+}
