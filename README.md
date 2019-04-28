@@ -17,7 +17,7 @@ Make sure to restrict the scope of the style to the domain of your Rocket.Chat i
 
 ![Chat](screenshots/chat.png)
 
-![Create a new Channel](screenshots/create_channel.png) ![Members List](screenshots/members_list.png) ![Room Info](screenshots/room_info.png)
+<img alt="Create a new Channel" src="screenshots/create_channel.png" width="420"> <img alt="Members List" src="screenshots/members_list.png" width="220"> <img alt="Room Info" src="screenshots/room_info.png" width="220">
 
 ## TODO
 
