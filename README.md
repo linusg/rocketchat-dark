@@ -13,6 +13,12 @@ Because everything needs a dark theme. And because Rocket-Chat has no dark mode 
 
 Make sure to restrict the scope of the style to the domain of your Rocket.Chat installation.
 
+## Screenshots
+
+![Chat](screenshots/chat.png)
+
+![Create a new Channel](screenshots/create_channel.png) ![Members List](screenshots/members_list.png) ![Room Info](screenshots/room_info.png)
+
 ## TODO
 
 This theme is not finished yet. It's usable but the admin interface and other parts will remain light.
