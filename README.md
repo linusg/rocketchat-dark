@@ -4,7 +4,7 @@
 
 ## Why?
 
-Because everything needs a dark theme. And because Rocket-Chat has no dark mode yet, except for the iOS app.
+Because everything needs a dark theme. And because Rocket.Chat has no dark mode yet, except for the iOS app.
 
 ## Installation
 
