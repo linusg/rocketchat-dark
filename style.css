@@ -1,26 +1,31 @@
 :root {
-    --popover-background: var(--color-darkest);
-    --popover-item-color: var(--color-gray-medium);
-    --create-channel-title-color: var(--color-gray-medium);
-    --input-icon-color: var(--color-gray-medium);
-    --input-border-color: var(--color-dark-medium);
-    --tags-background: var(--color-dark);
-    --tags-text-color: var(--color-gray-medium);
-    --tags-border-color: var(--color-dark-medium);
+    /* Custom variables */
+    --selected-row-background: #295392;
+    --link-color: #1788e1;
+    --link-color-hover: #1788e1b8;
+    --mention-link-background: var(--link-color);
+
+    /* Rocket.Chat built-in variables */
     --button-disabled-background: var(--color-dark);
     --button-disabled-text-color: var(--color-gray);
     --button-secondary-background: var(--color-dark-medium);
+    --create-channel-title-color: var(--color-gray-medium);
+    --header-background-color: var(--color-darkest);
+    --header-title-username-color-darker: var(--color-white);
+    --input-border-color: var(--color-dark-medium);
+    --input-icon-color: var(--color-gray-medium);
+    --message-box-editing-color: #1788e11a;
+    --popover-background: var(--color-darkest);
+    --popover-item-color: var(--color-gray-medium);
     --popup-list-background: var(--color-dark);
     --popup-list-selected-background: var(--color-dark);
     --popup-list-background-hover: var(--color-darkest);
     --popup-list-name-color: var(--color-gray-medium);
-    --header-background-color: var(--color-darkest);
-    --header-title-username-color-darker: var(--color-white);
     --rc-color-alert-message-primary-background: #1d74f515;
     --rc-color-alert-message-secondary-background: #7ca52b15;
-    /* Custom variables */
-    --selected-row-background: #295392;
-    --mention-link-background: #1788e1;
+    --tags-background: var(--color-dark);
+    --tags-border-color: var(--color-dark-medium);
+    --tags-text-color: var(--color-gray-medium);
 }
 
 .rc-old .code-colors {
@@ -81,6 +86,7 @@ textarea {
     color: var(--color-dark-light);
 }
 
+.rc-old .rc-message-box .reply-preview,
 .rc-member-list__user.active,
 .rc-member-list__user:hover,
 .rc-user-info-details,
@@ -91,6 +97,8 @@ textarea {
     background: var(--color-dark);
 }
 
+.rc-modal,
+.rc-modal__footer,
 .rc-old .messages-container-wrapper,
 .rc-old .messages-container .footer,
 .rc-user-info-container,
@@ -104,10 +112,22 @@ textarea {
     color: var(--color-gray-medium);
 }
 
+.message a {
+    color: var(--link-color);
+}
+
+.message a:hover {
+    color: var(--link-color-hover);
+}
+
 .message .reactions > li,
 .message .reactions > li.selected {
     border-color: var(--color-dark-medium);
     background-color: var(--color-dark);
+}
+
+.message.editing {
+    background: var(--message-box-editing-color);
 }
 
 .messages-box.selectable .selected {
