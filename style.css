@@ -108,7 +108,7 @@ textarea {
 
 .message.new-day::before,
 .flex-tab .message.new-day::before {
-    background-color: var(--color-dark);
+    background-color: var(--color-darkest);
     color: var(--color-gray-medium);
 }
 
