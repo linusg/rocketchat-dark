@@ -42,14 +42,6 @@
     margin-bottom: 20px;
 }
 
-.rc-user-info-details {
-    background: var(--color-dark);
-}
-
-.rc-table tbody tr:not(.table-no-click):not(.table-no-pointer):hover {
-    background: var(--color-dark);
-}
-
 .rc-message-box__container {
     border-color: var(--color-dark-medium);
 }
@@ -91,6 +83,8 @@ textarea {
 
 .rc-member-list__user.active,
 .rc-member-list__user:hover,
+.rc-user-info-details,
+.rc-table tbody tr:not(.table-no-click):not(.table-no-pointer):hover,
 .attachments__item.active,
 .attachments__item:hover,
 .emoji-picker .emojis .emoji-list li:hover {
