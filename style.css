@@ -23,14 +23,6 @@
     --mention-link-background: #1788e1;
 }
 
-.rc-old .messages-container-wrapper {
-    background: var(--color-darkest);
-}
-
-.rc-old .messages-container .footer {
-    background: var(--color-darkest);
-}
-
 .rc-old .code-colors {
     color: var(--color-gray-medium);
     background: var(--color-darkest);
@@ -40,10 +32,6 @@
 .rc-header__wrap {
     color: var(--header-title-status-color);
     box-shadow: 0 3px 1px 2px rgba(255, 255, 255, 0.1);
-}
-
-.rc-user-info-container {
-    background: var(--color-darkest);
 }
 
 .rc-user-info__name {
@@ -56,14 +44,6 @@
 
 .rc-user-info-details {
     background: var(--color-dark);
-}
-
-.rc-user-info-details__info {
-    color: var(--color-gray-medium);
-}
-
-.rc-table-title {
-    color: var(--color-gray-medium);
 }
 
 .rc-table tbody tr:not(.table-no-click):not(.table-no-pointer):hover {
@@ -84,11 +64,29 @@
 }
 
 .rc-input__element,
+.rc-member-list__counter,
 .rc-switch__text,
 .rc-switch-double,
-.rc-member-list__counter,
-.attachments__name {
+.rc-table-title,
+.rc-user-info-details__info,
+.attachments__name,
+.attachments-menu,
+.color-primary-font-color,
+.message a i,
+.flex-tab a i,
+.message a[class^="icon-"],
+.flex-tab a[class^="icon-"],
+input,
+select,
+textarea {
     color: var(--color-gray-medium);
+}
+
+.message a i:hover,
+.flex-tab a i:hover,
+.message a[class^="icon-"]:hover,
+.flex-tab a[class^="icon-"]:hover {
+    color: var(--color-dark-light);
 }
 
 .rc-member-list__user.active,
@@ -99,28 +97,17 @@
     background: var(--color-dark);
 }
 
-.attachments-menu {
-    color: var(--color-gray-medium);
+.rc-old .messages-container-wrapper,
+.rc-old .messages-container .footer,
+.rc-user-info-container,
+.content-background-color {
+    background: var(--color-darkest);
 }
 
 .message.new-day::before,
 .flex-tab .message.new-day::before {
     background-color: var(--color-dark);
     color: var(--color-gray-medium);
-}
-
-.message a i,
-.flex-tab a i,
-.message a[class^="icon-"],
-.flex-tab a[class^="icon-"] {
-    color: var(--color-gray-medium);
-}
-
-.message a i:hover,
-.flex-tab a i:hover,
-.message a[class^="icon-"]:hover,
-.flex-tab a[class^="icon-"]:hover {
-    color: var(--color-dark-light);
 }
 
 .message .reactions > li,
@@ -141,15 +128,4 @@
 .contextual-bar {
     background: var(--color-darkest);
     box-shadow: 0 3px 1px 2px rgba(255, 255, 255, 0.1);
-}
-
-.content-background-color {
-    background: var(--color-darkest);
-}
-
-.color-primary-font-color,
-input,
-select,
-textarea {
-    color: var(--color-gray-medium);
 }
