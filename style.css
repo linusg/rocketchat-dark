@@ -57,7 +57,7 @@
 }
 
 .rc-popover__content {
-    box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.29), 0 0 12px 0 rgba(47, 52, 61, .08);
+    box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.3);
 }
 
 .rc-input__element,
