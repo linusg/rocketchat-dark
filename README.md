@@ -2,6 +2,8 @@
 
 > Dark theme stylesheet for Rocket.Chat
 
+![Chat](screenshots/chat.png)
+
 ## Why?
 
 Because everything needs a dark theme. And because Rocket.Chat has no dark mode yet, except for the iOS app.
@@ -22,11 +24,10 @@ Make sure to restrict the scope of the style to the domain of your Rocket.Chat i
 - Copy the content of [`style.css`](style.css) into it the **Custom CSS** field
 - Click **Save changes** at the top
 
-## Screenshots
+## More Screenshots
 
-![Chat](screenshots/chat.png)
-
-<img alt="Create a new Channel" src="screenshots/create_channel.png" height="380"> <img alt="Members List" src="screenshots/members_list.png" height="380"> <img alt="Room Info" src="screenshots/room_info.png" height="380">
+<img alt="Create a new Channel" src="screenshots/create_channel.png" height="400"> <img alt="Members List" src="screenshots/members_list.png" height="400"> <img alt="Room Info" src="screenshots/room_info.png" height="400">
+<img alt="Directory" src="screenshots/directory.png" height="230"> <img alt="People autocomplete" src="screenshots/people_autocomplete.png" height="230">
 
 ## TODO
 
