@@ -106,6 +106,7 @@ textarea {
 .rc-table tbody tr:not(.table-no-click):not(.table-no-pointer):hover,
 .attachments__item.active,
 .attachments__item:hover,
+.secondary-background-color,
 .emoji-picker .emojis .emoji-list li:hover {
     background: var(--color-dark);
 }
@@ -127,6 +128,7 @@ textarea {
 
 .rc-user-info__row--separator,
 .rc-old .page-settings .section,
+.border-component-color,
 .message.new-day::after {
     border-color: var(--color-dark-medium);
 }
