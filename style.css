@@ -124,6 +124,12 @@ textarea {
     color: var(--color-gray-medium);
 }
 
+.rc-user-info__row--separator,
+.rc-old .page-settings .section,
+.message.new-day::after {
+    border-color: var(--color-dark-medium);
+}
+
 .message a {
     color: var(--link-color);
 }
