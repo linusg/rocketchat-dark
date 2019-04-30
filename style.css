@@ -16,7 +16,9 @@
     --input-icon-color: var(--color-gray-medium);
     --message-box-editing-color: #1788e11a;
     --popover-background: var(--color-darkest);
+    --popover-title-color: var(--color-white);
     --popover-item-color: var(--color-gray-medium);
+    --popover-divider-color: var(--color-dark-medium);
     --popup-list-background: var(--color-dark);
     --popup-list-selected-background: var(--color-dark);
     --popup-list-background-hover: var(--color-darkest);
