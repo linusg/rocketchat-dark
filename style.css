@@ -62,6 +62,10 @@
     box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.3);
 }
 
+.rc-form-legend {
+    color: var(--color-gray);
+}
+
 .rc-input__element,
 .rc-member-list__counter,
 .rc-switch__text,
@@ -82,6 +86,7 @@ textarea {
     color: var(--color-gray-medium);
 }
 
+.rc-form-label,
 .message a i:hover,
 .flex-tab a i:hover,
 .message a[class^="icon-"]:hover,
