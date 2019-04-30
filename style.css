@@ -23,6 +23,8 @@
     --popup-list-name-color: var(--color-gray-medium);
     --rc-color-alert-message-primary-background: #1d74f515;
     --rc-color-alert-message-secondary-background: #7ca52b15;
+    --sidebar-background-light: var(--color-dark);
+    --sidebar-background-light-hover: var(--color-darkest);
     --tags-background: var(--color-dark);
     --tags-border-color: var(--color-dark-medium);
     --tags-text-color: var(--color-gray-medium);
@@ -69,6 +71,7 @@
 .attachments__name,
 .attachments-menu,
 .color-primary-font-color,
+.sidebar-light .sidebar-item,
 .message a i,
 .flex-tab a i,
 .message a[class^="icon-"],
