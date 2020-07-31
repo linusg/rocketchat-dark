@@ -4,6 +4,7 @@
     --link-color: #1788e1;
     --link-color-hover: #1788e1b8;
     --mention-link-background: var(--link-color);
+    --message-hover-color: #444444;
 
     /* Rocket.Chat built-in variables */
     --button-disabled-background: var(--color-dark);
@@ -149,6 +150,10 @@ textarea {
 
 .message a:hover {
     color: var(--link-color-hover);
+}
+
+.message.active, .message:hover {
+    background-color: var(--message-hover-color);
 }
 
 .message .reactions > li,
