@@ -3,7 +3,6 @@
     --selected-row-background: #295392;
     --link-color: #1788e1;
     --link-color-hover: #1788e1b8;
-    --mention-link-background: var(--link-color);
     --message-hover-color: #444444;
 
     /* Rocket.Chat built-in variables */
@@ -33,10 +32,22 @@
     --tags-text-color: var(--color-gray-medium);
 }
 
+/* Syntax highlighting rules. */
 .rc-old .code-colors {
     color: var(--color-gray-medium);
     background: var(--color-darkest);
     border-color: var(--color-dark);
+}
+.hljs-selector-tag {
+    color: white;
+}
+
+.hljs-attribute {
+    color: var(--link-color)
+}
+
+.rc-header {
+    border-bottom: 2px solid var(--color-dark-medium);
 }
 
 .rc-header__wrap {
